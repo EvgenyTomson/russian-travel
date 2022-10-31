@@ -1,0 +1,28 @@
+.places__heading {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+}
+
+@media (max-width:1024px) {
+  .places__heading {
+    gap: 32px;
+  }
+}
+
+@media (max-width:976px) {
+  .places__heading {
+    padding: 0 24px;
+    gap: 28px;
+  }
+}
+
+@media (max-width:680px) {
+  .places__heading {
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0 16px;
+  }
+}

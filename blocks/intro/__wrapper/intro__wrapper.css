@@ -1,0 +1,15 @@
+.intro__wrapper {
+  max-width: 690px;
+}
+
+@media (max-width:976px) {
+  .intro__wrapper {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width:450px) {
+  .intro__wrapper {
+    padding: 0 16px;
+  }
+}

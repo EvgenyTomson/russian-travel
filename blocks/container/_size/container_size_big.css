@@ -1,0 +1,9 @@
+.container_size_big {
+  max-width: 1184px;
+}
+
+@media (max-width:1024px) {
+  .container_size_big {
+    max-width: 100%;
+  }
+}

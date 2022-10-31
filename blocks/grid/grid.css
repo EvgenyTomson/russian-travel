@@ -1,0 +1,15 @@
+.grid {
+  padding-top: 92px;
+}
+
+@media (max-width:768px) {
+  .grid {
+    padding-top: 88px;
+  }
+}
+
+@media (max-width:320px) {
+  .grid {
+    padding-top: 64px;
+  }
+}

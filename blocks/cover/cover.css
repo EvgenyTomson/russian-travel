@@ -1,0 +1,19 @@
+.cover {
+  padding-top: 92px;
+}
+
+.cover:hover .cover__wrapper::before {
+  opacity: .8;
+}
+
+@media (max-width:768px) {
+  .cover {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width:320px) {
+  .cover {
+    padding-top: 66px;
+  }
+}

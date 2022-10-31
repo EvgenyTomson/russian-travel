@@ -1,0 +1,15 @@
+.header__language-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: right;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+  transition: .2s linear;
+}
+
+.header__language-link:hover {
+  opacity: .8;
+}

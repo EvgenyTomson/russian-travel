@@ -1,0 +1,15 @@
+.places__paragraphs {
+  padding: 0;
+}
+
+@media (max-width:470px) {
+  .places__paragraphs {
+    padding: 0 16px;
+  }
+}
+
+/* @media (max-width:470px) {
+  .places__description {
+    padding: 0;
+  }
+} */

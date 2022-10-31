@@ -1,0 +1,33 @@
+.places__description {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width:1024px) {
+  .places__description {
+    gap: 32px;
+  }
+}
+
+@media (max-width:976px) {
+  .places__description {
+    padding: 0 24px;
+    gap: 28px;
+  }
+}
+
+@media (max-width:680px) {
+  .places__description {
+    padding: 0 16px;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
+
+@media (max-width:470px) {
+  .places__description {
+    padding: 0;
+    /* flex-wrap: wrap;
+    gap: 32px; */
+  }
+}
