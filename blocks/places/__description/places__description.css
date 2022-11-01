@@ -27,7 +27,5 @@
 @media (max-width:470px) {
   .places__description {
     padding: 0;
-    /* flex-wrap: wrap;
-    gap: 32px; */
   }
 }
