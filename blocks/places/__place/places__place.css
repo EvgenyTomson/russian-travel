@@ -3,3 +3,9 @@
   flex-direction: column;
   gap: 48px;
 }
+
+@media (max-width:470px) {
+  .places__place {
+    gap: 32px;
+  }
+}

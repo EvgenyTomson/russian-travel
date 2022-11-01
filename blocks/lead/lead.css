@@ -2,8 +2,16 @@
   padding-top: 56px;
 }
 
-@media (max-width:1024px) {
+@media (max-width:1097px) {
   .lead {
-    padding-top: 48px;
+    /* padding-top: 48px; */
+    padding: 48px 48px 0;
+  }
+}
+
+@media (max-width:900px) {
+  .lead {
+    /* padding-top: 48px; */
+    padding: 48px 0 0;
   }
 }
