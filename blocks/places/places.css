@@ -1,16 +1,27 @@
 .places {
   padding-top: 92px;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
-@media (max-width:768px) {
+@media (max-width:1097px) {
   .places {
-    padding-top: 88px;
+    padding: 92px 48px 0;
   }
 }
 
-
-@media (max-width:320px) {
+@media (max-width:935px) {
   .places {
-    padding-top: 64px;
+    gap: 73px;
+    padding: 88px 24px 0;
+  }
+}
+
+@media (max-width:470px) {
+  .places {
+    gap: 50px;
+    padding: 64px 0 0;
   }
 }

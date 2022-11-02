@@ -1,31 +1,31 @@
-.places__description {
+.place__heading {
   display: flex;
   gap: 40px;
+  align-items: flex-end;
 }
 
 @media (max-width:1024px) {
-  .places__description {
+  .place__heading {
     gap: 32px;
   }
 }
 
 @media (max-width:976px) {
-  .places__description {
-    padding: 0 24px;
+  .place__heading {
     gap: 28px;
   }
 }
 
 @media (max-width:680px) {
-  .places__description {
-    padding: 0 16px;
-    flex-wrap: wrap;
+  .place__heading {
+    flex-direction: column;
+    align-items: flex-start;
     gap: 32px;
   }
 }
 
 @media (max-width:470px) {
-  .places__description {
-    padding: 0;
+  .place__heading {
+    padding: 0 16px;
   }
 }

@@ -1,12 +1,3 @@
 .lead__container {
-  box-sizing: border-box;
-  max-width: 984px;
   margin: 0 auto;
-}
-
-@media (max-width:1097px) {
-  .lead__container {
-    max-width: 100%;
-    margin: 0;
-  }
 }

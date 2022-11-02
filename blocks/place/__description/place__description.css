@@ -1,0 +1,23 @@
+.place__description {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width:1024px) {
+  .place__description {
+    gap: 32px;
+  }
+}
+
+@media (max-width:976px) {
+  .place__description {
+    gap: 28px;
+  }
+}
+
+@media (max-width:680px) {
+  .place__description {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}

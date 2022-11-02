@@ -1,9 +1,9 @@
-.places__paragraphs {
+.place__paragraphs {
   padding: 0;
 }
 
 @media (max-width:470px) {
-  .places__paragraphs {
+  .place__paragraphs {
     padding: 0 16px;
   }
 }

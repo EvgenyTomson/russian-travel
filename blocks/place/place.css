@@ -1,11 +1,11 @@
-.places__place {
+.place {
   display: flex;
   flex-direction: column;
   gap: 48px;
 }
 
 @media (max-width:470px) {
-  .places__place {
+  .place {
     gap: 32px;
   }
 }

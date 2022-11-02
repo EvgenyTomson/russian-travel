@@ -1,9 +1,20 @@
 .footer {
-  padding-top: 92px;
+  padding: 92px 48px 24px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
 }
 
-@media (max-width:660px) {
+@media (max-width:800px) {
   .footer {
-    padding-top: 64px;
+    padding:  88px 24px 24px;
+  }
+}
+
+@media (max-width:670px) {
+  .footer {
+    padding: 64px 16px 24px;
+    flex-direction: column;
+    gap: 48px;
   }
 }

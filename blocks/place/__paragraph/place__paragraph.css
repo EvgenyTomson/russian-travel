@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
   margin: 0;
   padding: 0;
   font-style: normal;
@@ -8,16 +8,16 @@
   color: #fff;
 }
 
-.places__paragraph:not(:first-child) {
+.place__paragraph:not(:first-child) {
   margin-top: 26px;
 }
 
 @media (max-width:768px) {
-  .places__paragraph {
+  .place__paragraph {
     font-size: 16px;
   }
 
-  .places__paragraph:not(:first-child) {
+  .place__paragraph:not(:first-child) {
     margin-top: 25px;
   }
 }
