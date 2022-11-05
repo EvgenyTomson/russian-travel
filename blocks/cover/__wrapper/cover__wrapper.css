@@ -27,6 +27,6 @@
 
 @media (max-width:1184px) {
   .cover__wrapper {
-    min-height: calc(100vw * 0.625);
+    min-height: 62.5vw;
   }
 }
