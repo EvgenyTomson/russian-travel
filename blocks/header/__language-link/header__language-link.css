@@ -13,3 +13,9 @@
 .header__language-link:hover {
   opacity: .8;
 }
+
+@media (max-width:450px) {
+  .header__language-link {
+    font-size: 20px;
+  }
+}
